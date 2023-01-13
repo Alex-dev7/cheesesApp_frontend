@@ -20,7 +20,7 @@ function Index(props) {
             <Link to={`/${cheese._id}`} >
                 <h3>{cheese.name}</h3>
             </Link>
-            <h4><i>Country of Origin:</i> {cheese.countryOfOrigin}</h4>
+            
             <img src={cheese.image} alt={cheese.name} style={{width: "300px"}}/>
          
            </div>
