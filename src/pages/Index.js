@@ -6,7 +6,7 @@ function Index(props) {
 
     const cheeses = useLoaderData()
 
-// import a form component in the return codeblock, instead of defining it here
+
     return(<>
         <div className="addForm">
             <AddNew />
