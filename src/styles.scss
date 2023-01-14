@@ -40,12 +40,14 @@ form input[type="submit"] {
   font-size: 18px;
   border: none;
   border-radius: 10px;
-  padding: 5px 10px;
+  padding: 5px 15px;
   height: auto;
   color: white;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.615);
 }
 form input[type="submit"]:hover{
-  border: 2px solid rgb(80, 165, 80);
+  // color: #c66a6a;
+  background-color: rgb(118, 174, 28);
 }
 
 .cheese {
@@ -62,7 +64,7 @@ form input[type="submit"]:hover{
   margin: 20px;
   padding: 20px;
   h3 {
-      color: #333;
+      color: rgb(77, 68, 68);
       margin-bottom: 10px;
   }
   img {
